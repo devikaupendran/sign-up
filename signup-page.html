@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+
+    <!--bootstrap links-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <!-- main container  -->
+   <div class="container-sm bg-primary mt-5">
+        <div class="row justify-content-center">
+            <div class="col-sm-8">
+
+                <!-- card section start  -->
+                <div class="card shadow-sm mt-5">
+                    <div class="card-body"> <!--card body-->
+                        <h1>Sign Up</h1>
+                            <p class="mb-5">Please fill in this form to create an account!</p>
+                            <form>
+                                <!-- nested row for name section-->
+                                <div class="row ">
+                                    <div class="col-sm"><input type="text" placeholder="First Name" class="form-control border border-0 bg-light"></div>                          
+                                    <div class="col-sm"><input type="text" placeholder="Last Name" class="form-control border border-0 bg-light"></div>                          
+                                </div>
+
+                                <!-- nested row  for email section-->
+                                <div class="row">
+                                    <div class="col-sm"><input type="email" placeholder="Email" class="form-control border border-0 bg-light mt-4"></div>
+                                </div>
+
+                                <!-- nested row  password section -->
+                                <div class="row">
+                                    <div class="col-sm"><input type="password" placeholder="Password" class="form-control border border-0 bg-light mt-4"></div>
+                                </div>
+
+                                <!-- nested row  for confirm password-->
+                                <div class="row">
+                                    <div class="col-sm"><input type="password" placeholder="Confirm Password" class="form-control border border-0 bg-light mt-4"></div>
+                                </div>
+
+                                <!-- nested row for checkbox -->
+                                <div class="row form-check mt-4">
+                                    <div class="col-sm"><input type="checkbox" class="form-check-input ">I accept the <a href="#">Terms of Use</a> & <a href="#"> Privacy Policy.</a></div>
+                                </div>
+
+                                <button class="btn btn-primary px-5 mt-4 mb-3">Sign Up</button>
+                            </form>
+                    </div>
+                </div>  <!--card section end -->
+
+            </div>   <!-- main row end-->
+        </div>
+
+       <!-- main row for Already have an account  -->
+        <div class="row">
+            <div class="col-sm">
+                <p class="text-white my-3 d-flex justify-content-center">Already have an account ? <a href="#" class="text-white"> Login here</a></p>
+            </div>
+        </div>
+
+   </div>   <!--container end-->
+</body>
+</html>
